@@ -9,8 +9,9 @@ function App() {
     <div className="App">
       <header>
        <nav>
-         <Link to= "/">Home</Link>
+         <Link className= "px-1" to= "/">Home</Link>
          <Link to= "/user">User</Link>
+         <Link to= "/login">Login</Link>
        </nav>
       </header>
       {routesConfig.map(
