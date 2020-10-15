@@ -14,17 +14,17 @@ class Footer extends Component{
                 <div className= "container">
                     <div className="row">
 
-                        <div className="col contato">
+                        <div className="col ">
                             <p>Redes Sociais</p>
                             <div className="row img">
-                                <img className="col" src={facebook}></img>
-                                <img className="col" src={instagram}></img>
-                                <img className="col" src={whatsapp}></img>
-                                <img className="col" src={telegram}></img>
+                                <a href="https://www.facebook.com"><img src={facebook}></img></a>
+                                <a href="https://www.instagram.com"><img src={instagram}></img></a>
+                                <a href="https://www.whatsapp.com"><img src={whatsapp}></img></a>
+                                <img src={telegram}></img>
                             </div>
                         </div>
 
-                        <div className="col">
+                        <div className="col contato">
                             <p>Contato: <a href="tel:51985638588">(51) 98563-8588</a></p>
                             <p>E-mail: <a href="mailto:antoniocarlosnieto@gmail">antoniocarlosnieto@gmail.com</a></p>
                             
