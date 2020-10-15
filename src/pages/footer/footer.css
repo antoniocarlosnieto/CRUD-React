@@ -1,0 +1,18 @@
+footer{
+    background-color: rgb(127, 236, 236);
+    color: darkblue;
+}
+
+.img img{
+    height: 30px;
+    width: 30px;
+    margin-right: 2rem;
+}
+
+.copyright{
+    font-size: 14px;
+    text-align: center;
+}
+
+
+
