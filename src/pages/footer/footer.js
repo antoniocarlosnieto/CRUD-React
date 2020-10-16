@@ -10,14 +10,14 @@ class Footer extends Component{
         return (
             
             <footer>
-                <div>Este é o Footer</div>
+               
                 <div className= "container">
                     <div className="row">
 
                         <div className="col ">
                             <p>Redes Sociais</p>
                             <div className="row img">
-                                <a href="https://www.facebook.com"><img src={facebook}></img></a>
+                                <a href="https://www.facebook.com/bandahugs"><img src={facebook}></img></a>
                                 <a href="https://www.instagram.com"><img src={instagram}></img></a>
                                 <a href="https://www.whatsapp.com"><img src={whatsapp}></img></a>
                                 <img src={telegram}></img>

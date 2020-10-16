@@ -11,8 +11,9 @@ function App() {
       <header className= "py-3 header">
        <nav className="nav-link">
          <Link className= "px-1" to= "/">Home</Link>
-         <Link className="px-2" to= "/user">User</Link>
+         <Link className="px-2" to= "/integrantes">Integrantes</Link>
          <Link to= "/login">Login</Link>
+         <p>Qualquer Informação relevante....</p>
        </nav>
       </header>
       {routesConfig.map(
@@ -22,6 +23,7 @@ function App() {
           ></Route>
         }
       )}
+
       <Footer></Footer>
     </div>
   );

@@ -1,5 +1,5 @@
 import Home from "./pages/home/home"
-import User from "./pages/user/user"
+import Integrantes from "./pages/integrantes/integrantes"
 import Login from "./pages/login/login"
 
 
@@ -10,8 +10,8 @@ const routesConfig = [
         exact: true,
     },
     {
-        path: "/user",
-        component: User,
+        path: "/integrantes",
+        component: Integrantes,
         exact: true,
     },
     {
